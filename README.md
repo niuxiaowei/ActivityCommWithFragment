@@ -1,0 +1,2 @@
+# ActivityCommWithFragment
+解决activity与fragment之间互相通信的一种方案

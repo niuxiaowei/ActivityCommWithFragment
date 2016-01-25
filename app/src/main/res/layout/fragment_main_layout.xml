@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="视察的结果"/>
+    <Button
+        android:id="@+id/click1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(没有参数与返回值)"/>
+    <Button
+        android:id="@+id/click2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(没有参数有返回值)"/>
+    <Button
+        android:id="@+id/click3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(有参数没有返回值)"/>
+    <Button
+        android:id="@+id/click4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(有参数有返回值)"/>
+    <Button
+        android:id="@+id/click5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(有多个参数没有返回值)"/>
+    <Button
+        android:id="@+id/click6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用activity方法(有多个参数没有返回值)"/>
+</LinearLayout>
